@@ -1,0 +1,72 @@
+.weather-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: calc(33vh - 1em);
+  }
+  
+  .weather-app h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .weather-app p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  .city-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .city-list li {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .city-list li:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .city-list li:first-child {
+    border-top: 1px solid #ccc;
+  }
+  
+  .city-list li:last-child {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .city-list li:after {
+    content: "➔";
+    float: right;
+    color: #999;
+  }
+  
+  .city-list li:hover:after {
+    color: #666;
+  }
+  body {
+    font-size: 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 2em;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  input[type="text"], button {
+    font-size: 1.2em;
+    padding: 0.5em;
+  }
+  
+  .city-list li {
+    font-size: 1.2em;
+    padding: 1em;
+  }
